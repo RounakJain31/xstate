@@ -68,7 +68,7 @@ const LocationSelector = () => {
   // Display the selected location
   const renderLocation = () => {
     if (selectedCity && selectedState && selectedCountry) {
-      return `You Selected ${selectedCity}, ${selectedState}, ${selectedCountry}`;
+      return `You selected ${selectedCity}, ${selectedState}, ${selectedCountry}`;
     }
     return null;
   };
